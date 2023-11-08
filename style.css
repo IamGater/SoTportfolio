@@ -3,8 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+ scroll-behavior: smooth ;
+}
 body {
   background: #1f2235;
+  overflow-x: hidden;
+}
+
+.container{
+  max-width: 1320px;
+  padding: 0 20px;
 }
 .header {
   display: flex;
@@ -82,12 +91,48 @@ body {
   position: absolute;
   top: 35%;
   left: 3%;
+  animation: svg 3s infinite;
+  animation-direction: alternate;
 }
 .main__svg2 {
   position: absolute;
   top: 25%;
   left: 57%;
+  animation: sot 5s infinite;
+  animation-direction: alternate;
 }
+
+
+@keyframes svg {
+  0% {
+    transform: translate(0, 0);    
+  }
+  25%{
+    transform: translate(4, 8);
+  }
+  50%{
+    transform: translate(-10px, -22px);
+  }
+  100% {
+    transform: translate(8px, 21px);
+  }
+}
+
+@keyframes sot {
+  0% {
+    transform: translate(0, 0);    
+  }
+  25%{
+    transform: translate(3, 7);
+  }
+  50%{
+    transform: translate(-6px, -24px);
+  }
+  100% {
+    transform: translate(9px, 23px);
+  }
+}
+
 .main button {
   border-radius: 7px;
   background: #fe461c;
