@@ -64,6 +64,7 @@ body {
   margin-left: 140px;
   margin-top: 250px;
   padding-bottom: 225px;
+  position: relative;
 }
 .main span {
   color: #fff;
@@ -86,22 +87,37 @@ body {
   text-transform: capitalize;
   margin-bottom: 16px;
   width: 700px;
+  position: relative;
 }
 
 .main__svg1 {
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 35%;
-  left: 3%;
+  top: -25%;
+  left: -6%;
   animation: svg 3s infinite;
   animation-direction: alternate;
 }
 .main__svg2 {
   position: absolute;
-  top: 25%;
-  left: 57%;
+  top: -45%;
+  left: 53%;
   animation: sot 5s infinite;
   animation-direction: alternate;
 }
+
+.vscode {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -15%;
+  left: 90%;
+  animation: fn 7s infinite;
+  animation-direction: alternate;
+}
+
 
 @keyframes svg {
   0% {
@@ -130,6 +146,21 @@ body {
   }
   100% {
     transform: translate(9px, 23px);
+  }
+}
+
+@keyframes fn {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(2, 5);
+  }
+  50% {
+    transform: translate(-9px, -22px);
+  }
+  100% {
+    transform: translate(4px, 15px);
   }
 }
 
@@ -249,8 +280,8 @@ body {
 .skills__wrapp {
   margin-top: 70px;
 }
-.footer{
-  background: #24263B;
+.footer {
+  background: #24263b;
   padding-bottom: 40px;
   padding-top: 40px;
 }
@@ -268,21 +299,21 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.footer__social{
+.footer__social {
   display: flex;
   gap: 30px;
 }
-.social{
-  color: #FFF;
+.social {
+  color: #fff;
 
-text-align: center;
-font-family: Outfit;
-font-size: 29px;
-font-style: normal;
-font-weight: 700;
-line-height: 42px
+  text-align: center;
+  font-family: Outfit;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
 }
-#footer-logo{
+#footer-logo {
   text-decoration: none;
   color: #fe461c;
   font-size: 30px;
