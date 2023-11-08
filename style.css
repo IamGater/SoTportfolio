@@ -29,7 +29,7 @@ body {
   text-decoration: none;
 }
 .header__about,
-.header__portfolio,
+.header__resume,
 .header__contacts {
   color: #fff;
   font-family: Outfit;
@@ -40,6 +40,7 @@ body {
   text-transform: capitalize;
   padding-left: 70px;
   cursor: pointer;
+  text-decoration: none;
 }
 #logo {
   text-decoration: none;
@@ -107,6 +108,7 @@ body {
 
 .about {
   background: #24263b;
+  padding-bottom: 30px;
 }
 .about__wrapper {
   display: flex;
@@ -115,7 +117,7 @@ body {
   margin-left: 200px;
   gap: 60px;
 }
-.about span {
+.about span,.skills__span {
   padding: 12px 14px;
   color: #fff;
   text-align: center;
@@ -164,4 +166,39 @@ body {
   padding: 15px 19px;
   border: none;
   cursor: pointer;
+}
+.skills{
+  display: flex;
+  padding-top: 120px;
+  padding-left: 200px;
+}
+.skills h3{
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+}
+.skill{
+  color: #FFF;
+font-family: Outfit;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+}
+.skill__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.skills h3{
+  margin-top: 25px;
+  margin-bottom: 46px;
+}
+.img__90{
+  padding-bottom: 70px;
+}
+.skills__wrapp{
+  margin-top: 70px;
 }
