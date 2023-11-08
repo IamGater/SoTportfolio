@@ -3,17 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
- scroll-behavior: smooth ;
+html {
+  scroll-behavior: smooth;
 }
 body {
   background: #1f2235;
   overflow-x: hidden;
 }
 
-.container{
+.container {
   max-width: 1320px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 .header {
   display: flex;
@@ -102,15 +103,14 @@ body {
   animation-direction: alternate;
 }
 
-
 @keyframes svg {
   0% {
-    transform: translate(0, 0);    
+    transform: translate(0, 0);
   }
-  25%{
+  25% {
     transform: translate(4, 8);
   }
-  50%{
+  50% {
     transform: translate(-10px, -22px);
   }
   100% {
@@ -120,12 +120,12 @@ body {
 
 @keyframes sot {
   0% {
-    transform: translate(0, 0);    
+    transform: translate(0, 0);
   }
-  25%{
+  25% {
     transform: translate(3, 7);
   }
-  50%{
+  50% {
     transform: translate(-6px, -24px);
   }
   100% {
@@ -162,7 +162,8 @@ body {
   margin-left: 200px;
   gap: 60px;
 }
-.about span,.skills__span {
+.about span,
+.skills__span {
   padding: 12px 14px;
   color: #fff;
   text-align: center;
@@ -212,38 +213,79 @@ body {
   border: none;
   cursor: pointer;
 }
-.skills{
+.skills {
   display: flex;
   padding-top: 120px;
   padding-left: 200px;
+  padding-bottom: 50px;
 }
-.skills h3{
-  color: #FFF;
+.skills h3 {
+  color: #fff;
   font-family: Outfit;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 35px;
 }
-.skill{
-  color: #FFF;
-font-family: Outfit;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px;
+.skill {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
 }
-.skill__wrapper{
+.skill__wrapper {
   display: flex;
   justify-content: space-between;
 }
-.skills h3{
+.skills h3 {
   margin-top: 25px;
   margin-bottom: 46px;
 }
-.img__90{
+.img__90 {
   padding-bottom: 70px;
 }
-.skills__wrapp{
+.skills__wrapp {
   margin-top: 70px;
+}
+.footer{
+  background: #24263B;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.footer__social a {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #24263b;
+  padding: 14px 25px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-family: Outfit;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social{
+  display: flex;
+  gap: 30px;
+}
+.social{
+  color: #FFF;
+
+text-align: center;
+font-family: Outfit;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px
+}
+#footer-logo{
+  text-decoration: none;
+  color: #fe461c;
+  font-size: 30px;
+  font-family: Outfit;
+  cursor: pointer;
 }
