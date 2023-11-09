@@ -118,7 +118,6 @@ body {
   animation-direction: alternate;
 }
 
-
 @keyframes svg {
   0% {
     transform: translate(0, 0);
@@ -274,8 +273,30 @@ body {
   margin-top: 25px;
   margin-bottom: 46px;
 }
-.img__90 {
-  padding-bottom: 70px;
+.skill__span {
+  display: block;
+  width: 606px;
+  height: 18px;
+  border-radius: 300px;
+  background-color: #fff;
+}
+.skill__span1 {
+  display: block;
+  width: 541px;
+  height: 18px;
+  border-radius: 300px;
+  background: #fe461c;
+}
+.skill__span2 {
+  display: block;
+  width: 429px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 300px;
+  background: #fe461c;
+}
+.skill__wheel{
+  margin-bottom: 100px;
 }
 .skills__wrapp {
   margin-top: 70px;
