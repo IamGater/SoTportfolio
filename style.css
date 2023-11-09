@@ -12,15 +12,15 @@ body {
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1350px;
   padding: 0 20px;
   margin: 0 auto;
 }
-.header {
+
+.header__container {
   display: flex;
   justify-content: space-between;
   padding: 42px 50px;
-  margin: 0 auto;
 }
 
 .header__wrapper {
@@ -61,8 +61,7 @@ body {
 }
 
 .main {
-  margin-left: 140px;
-  margin-top: 250px;
+  padding-top: 200px;
   padding-bottom: 225px;
   position: relative;
 }
@@ -85,7 +84,7 @@ body {
   font-weight: 600;
   line-height: 72px;
   text-transform: capitalize;
-  margin-bottom: 16px;
+  margin-bottom: 31px;
   width: 700px;
   position: relative;
 }
@@ -94,15 +93,15 @@ body {
   width: 200px;
   height: 200px;
   position: absolute;
-  top: -25%;
-  left: -6%;
+  top: 12%;
+  left: 1%;
   animation: svg 3s infinite;
   animation-direction: alternate;
 }
 .main__svg2 {
   position: absolute;
-  top: -45%;
-  left: 53%;
+  top: 1%;
+  left: 55%;
   animation: sot 5s infinite;
   animation-direction: alternate;
 }
@@ -112,8 +111,8 @@ body {
   height: 80px;
   flex-shrink: 0;
   position: absolute;
-  top: -15%;
-  left: 90%;
+  top: 13%;
+  left: 86%;
   animation: fn 7s infinite;
   animation-direction: alternate;
 }
@@ -163,22 +162,22 @@ body {
   }
 }
 
-.main button {
+.main__a {
   border-radius: 7px;
   background: #fe461c;
-  width: 160px;
-  height: 50px;
+  padding: 15px 45px;
   flex-shrink: 0;
   color: #fff;
   text-align: center;
   font-family: Outfit;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 15px;
   text-transform: capitalize;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .about {
@@ -188,8 +187,6 @@ body {
 .about__wrapper {
   display: flex;
   padding-top: 160px;
-  margin: auto;
-  margin-left: 200px;
   gap: 60px;
 }
 .about span,
@@ -228,7 +225,7 @@ body {
   width: 525px;
   margin-bottom: 20px;
 }
-.about button {
+.about__a {
   border-radius: 4px;
   background: #fe461c;
   color: #fff;
@@ -242,11 +239,11 @@ body {
   padding: 15px 19px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 .skills {
   display: flex;
   padding-top: 120px;
-  padding-left: 200px;
   padding-bottom: 50px;
 }
 .skills h3 {
@@ -264,6 +261,9 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 25px;
+}
+.skills__container {
+  display: flex;
 }
 .skill__wrapper {
   display: flex;
@@ -295,7 +295,7 @@ body {
   border-radius: 300px;
   background: #fe461c;
 }
-.skill__wheel{
+.skill__wheel {
   margin-bottom: 100px;
 }
 .skills__wrapp {
