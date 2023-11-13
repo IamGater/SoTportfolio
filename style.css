@@ -87,6 +87,7 @@ body {
   margin-bottom: 31px;
   width: 700px;
   position: relative;
+  z-index: 99;
 }
 
 .main__svg1 {
@@ -100,7 +101,7 @@ body {
 }
 .main__svg2 {
   position: absolute;
-  top: 1%;
+  top: -4%;
   left: 55%;
   animation: sot 5s infinite;
   animation-direction: alternate;
@@ -339,4 +340,80 @@ body {
   font-size: 30px;
   font-family: Outfit;
   cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .container{
+    padding: 0 40px;
+  }
+  .main{
+    padding-bottom: 150px;
+    padding-top: 175px;
+  }
+  .main__h1{
+    font-size: 50px;
+    width: 550px;
+  }
+  .main span{
+    font-size: 13px;
+  }
+  .main__svg1{
+    width: 125px;
+    top: 15%;
+  }
+  .main__svg2{
+    top: 23%;
+    left: 58%;
+    width: 400px;
+  }
+  .vscode{
+    top: 25%;
+    width: 70px;
+  }
+  .about__wrapper{
+    padding: 100px 0;
+    padding-bottom: 30px;
+  }
+  .about__img img{
+    width: 500px;
+  }
+  .about p {
+    font-size: 13px;
+    width: 365px;
+  }
+  .about h2{
+    font-size: 34px;
+  }
+  .skills{
+    padding-top: 90px;
+  }
+  .skills__container{
+    gap: 30px;
+  }
+  .skill{
+    font-size: 18px;
+  }
+  .skills__img img{
+    width: 500px;
+  }
+  .skills h3{
+    font-size: 34px;
+  }
+  .skill__span{
+    width: 440px;
+    /* width: 100%; */
+  }
+  .skill__span1{
+    /* width: 385px; */
+    width: 90%;
+  }
+  .skill__span2{
+    /* width: 320px; */
+    width: 70%;
+  }
+  .social{
+    font-size: 24px;
+  }
+  .footer__social a{
+    padding: 10px 16px;
+  }
 }
