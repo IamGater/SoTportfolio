@@ -417,3 +417,24 @@ body {
     padding: 10px 16px;
   }
 }
+@media (max-width: 900px){
+  .about p {
+    width: 320px;
+  }
+  .skill__span{
+    width: 350px;
+  }
+  .skills__container{
+    gap: 0px;
+  }
+}
+/* @media (max-width: 720px){
+  .about__wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 115px;
+  }
+  .about h2{
+    text-align: center;
+  }
+} */
