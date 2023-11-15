@@ -428,13 +428,41 @@ body {
     gap: 0px;
   }
 }
-/* @media (max-width: 720px){
-  .about__wrapper{
-    display: grid;
-    grid-template-columns: auto;
-    padding-left: 115px;
+@media (max-width: 720px){
+  .main {
+    overflow-x: hidden;
   }
-  .about h2{
+  .header__about, .header__resume, .header__contacts{
+    padding-left: 40px;
+  }
+  .about__wrapper{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .about h2, p{
     text-align: center;
   }
-} */
+  .about__a{
+    margin: 0 auto;
+  }
+  .skills{
+    padding-top: 40px;
+  }
+  .skills__container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer__social{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social__div{
+    display: flex;
+    gap: 10px;
+  }
+}
