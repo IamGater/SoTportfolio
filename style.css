@@ -429,9 +429,6 @@ body {
   }
 }
 @media (max-width: 720px){
-  .main {
-    overflow-x: hidden;
-  }
   .header__about, .header__resume, .header__contacts{
     padding-left: 40px;
   }
