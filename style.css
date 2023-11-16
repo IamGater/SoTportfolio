@@ -531,6 +531,27 @@ body {
   .header__list {
     display: none;
   }
+  .header__list.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 101;
+    background: #24263b;
+    width: 250px;
+    height: 300px;
+    animation: burger 0.4s;
+  }
+  @keyframes burger {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+  .header__home,.header__about, .header__resume, .header__contacts {
+    padding-left: 0px;
+    font-size: 25px;
+    margin: auto;
+}
   .main__svg2 {
     display: none;
   }
@@ -564,7 +585,7 @@ body {
     gap: 20px;
   }
   .burger {
-    z-index: 99;
+    z-index: 102;
   }
   .line1,
   .line2 {
