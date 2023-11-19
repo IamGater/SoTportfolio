@@ -110,7 +110,7 @@ ul {
   line-height: 72px;
   text-transform: capitalize;
   margin-bottom: 31px;
-  width: 700px;
+  width: 718px;
   position: relative;
   z-index: 99;
 }
@@ -376,7 +376,7 @@ ul {
   }
   .main__h1 {
     font-size: 50px;
-    width: 550px;
+    max-width: 550px;
   }
   .main span {
     font-size: 13px;
@@ -444,10 +444,10 @@ ul {
 }
 @media (max-width: 900px) {
   .about p {
-    width: 320px;
+    max-width: 320px;
   }
   .skill__span {
-    width: 350px;
+    max-width: 350px;
   }
   .skills__container {
     gap: 0px;
@@ -498,7 +498,7 @@ ul {
   }
   .main__h1 {
     font-size: 42px;
-    width: 530px;
+    max-width: 530px;
     line-height: 55px;
   }
   .main span {
@@ -555,7 +555,7 @@ ul {
   }
   .main__h1 {
     font-size: 38px;
-    width: 469px;
+    max-width: 469px;
     line-height: 40px;
   }
   .vscode {
@@ -610,7 +610,7 @@ ul {
   }
   .main__h1 {
     font-size: 29px;
-    width: 326px;
+    max-width: 326px;
     margin-bottom: 15px;
   }
   .main span {
@@ -629,7 +629,7 @@ ul {
     font-size: 32px;
   }
   .skill__span {
-    width: 313px;
+    max-width: 313px;
   }
   .skills {
     padding-top: 20px;
@@ -661,5 +661,36 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+}
+@media (max-width: 320px){
+  .about__img img {
+    max-width: 315px;
+  }
+  .skills__span{
+    font-size: 14px;
+  }
+  .about h2 {
+    font-size: 31px;
+  }
+  .about p {
+    font-size: 12px;
+    max-width: 287px;
+    line-height: 20px;
+  }
+  .skills h3 {
+    font-size: 29px;
+  }
+  .skills__img img {
+    max-width: 315px;
+  }
+  .skill__span {
+    max-width: 286px;
+  }
+  .footer__social a {
+    font-size: 19px;
+  }
+  .footer{
+    padding-bottom: 15px;
   }
 }
