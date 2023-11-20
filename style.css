@@ -610,7 +610,7 @@ ul {
   }
   .main__h1 {
     font-size: 29px;
-    max-width: 326px;
+    max-width: 330px;
     margin-bottom: 15px;
   }
   .main span {
@@ -664,6 +664,10 @@ ul {
   }
 }
 @media (max-width: 320px){
+  .main__h1{
+    font-size: 26px;
+    max-width: 300px;
+  }
   .about__img img {
     max-width: 315px;
   }
