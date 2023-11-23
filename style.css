@@ -10,7 +10,9 @@ body {
   background: #1f2235;
   overflow-x: hidden;
 }
-
+.favicon{
+  object-fit: cover;
+}
 .container {
   max-width: 1350px;
   padding: 0 20px;
@@ -376,7 +378,7 @@ ul {
   }
   .main__h1 {
     font-size: 50px;
-    max-width: 550px;
+    max-width: 572px;
   }
   .main span {
     font-size: 13px;
