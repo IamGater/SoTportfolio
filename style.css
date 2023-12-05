@@ -10,7 +10,7 @@ body {
   background: #1f2235;
   overflow-x: hidden;
 }
-.favicon{
+.favicon {
   object-fit: cover;
 }
 .container {
@@ -78,6 +78,10 @@ ul {
   text-transform: capitalize;
   cursor: pointer;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.header__link:hover {
+  color: #fe461c;
 }
 #logo {
   text-decoration: none;
@@ -85,6 +89,10 @@ ul {
   font-size: 30px;
   font-family: Outfit;
   cursor: pointer;
+  transition: color 0.7s ease-in-out;
+}
+#logo:hover{
+  color: white;
 }
 
 .main {
@@ -206,11 +214,16 @@ ul {
   border: none;
   cursor: pointer;
   text-decoration: none;
+  transition: color 0.7s ease-in-out;
+}
+.main__a:hover {
+  background: #fff;
+  color: #fe461c;
 }
 
 .about {
   background: #24263b;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .about__wrapper {
   display: flex;
@@ -243,15 +256,17 @@ ul {
   margin-bottom: 15px;
   margin-top: 17px;
 }
+.about__me{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .about p {
   color: #fff;
   font-family: Public Sans;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
   line-height: 26px;
-  width: 525px;
-  margin-bottom: 20px;
+  max-width: 525px;
 }
 .about__a {
   border-radius: 4px;
@@ -268,6 +283,12 @@ ul {
   border: none;
   cursor: pointer;
   text-decoration: none;
+  max-width: 120px;
+  transition: color 0.8s ease-in-out;
+}
+.about__a:hover {
+  background: #fff;
+  color: #fe461c;
 }
 .skills {
   display: flex;
@@ -343,6 +364,11 @@ ul {
   text-decoration: none;
   color: white;
   font-family: Outfit;
+  transition: color 0.8s ease-in-out;
+}
+.footer__social a:hover{
+  color:#24263b;
+  background:white;
 }
 .footer__container {
   display: flex;
@@ -367,6 +393,10 @@ ul {
   font-size: 30px;
   font-family: Outfit;
   cursor: pointer;
+  transition: color 0.7s ease-in-out;
+}
+#footer-logo:hover{
+  color: white;
 }
 @media (max-width: 1000px) {
   .header__container {
@@ -600,7 +630,6 @@ ul {
   .line2 {
     display: block;
   }
-  
 }
 @media (max-width: 480px) {
   #logo {
@@ -665,15 +694,15 @@ ul {
     flex-direction: column;
   }
 }
-@media (max-width: 320px){
-  .main__h1{
+@media (max-width: 320px) {
+  .main__h1 {
     font-size: 26px;
     max-width: 300px;
   }
   .about__img img {
     max-width: 315px;
   }
-  .skills__span{
+  .skills__span {
     font-size: 14px;
   }
   .about h2 {
@@ -696,7 +725,7 @@ ul {
   .footer__social a {
     font-size: 19px;
   }
-  .footer{
+  .footer {
     padding-bottom: 15px;
   }
 }
