@@ -80,9 +80,12 @@ ul {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
-.header__link:hover {
+@media (any-hover: hover){
+  .header__link:hover {
   color: #fe461c;
 }
+}
+
 #logo {
   text-decoration: none;
   color: #fe461c;
@@ -91,9 +94,12 @@ ul {
   cursor: pointer;
   transition: color 0.7s ease-in-out;
 }
-#logo:hover{
+@media (any-hover: hover){
+  #logo:hover{
   color: white;
 }
+}
+
 
 .main {
   padding-top: 200px;
@@ -216,10 +222,13 @@ ul {
   text-decoration: none;
   transition: color 0.7s ease-in-out;
 }
-.main__a:hover {
+@media (any-hover: hover){
+  .main__a:hover {
   background: #fff;
   color: #fe461c;
 }
+}
+
 
 .about {
   background: #24263b;
@@ -286,10 +295,13 @@ ul {
   max-width: 120px;
   transition: color 0.8s ease-in-out;
 }
-.about__a:hover {
+@media (any-hover: hover){
+  .about__a:hover {
   background: #fff;
   color: #fe461c;
 }
+}
+
 .skills {
   display: flex;
   padding-top: 120px;
@@ -366,10 +378,13 @@ ul {
   font-family: Outfit;
   transition: color 0.8s ease-in-out;
 }
-.footer__social a:hover{
+@media (any-hover: hover){
+  .footer__social a:hover{
   color:#24263b;
   background:white;
 }
+}
+
 .footer__container {
   display: flex;
   justify-content: space-between;
@@ -395,9 +410,12 @@ ul {
   cursor: pointer;
   transition: color 0.7s ease-in-out;
 }
-#footer-logo:hover{
+@media (any-hover: hover){
+  #footer-logo:hover{
   color: white;
 }
+}
+
 @media (max-width: 1000px) {
   .header__container {
     padding-top: 10px;
