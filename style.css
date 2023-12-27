@@ -97,7 +97,7 @@ ul {
 }
 @media (any-hover: hover){
   #logo:hover{
-  color: white;
+  color: #ffffffb3;
 }
 }
 
@@ -225,7 +225,7 @@ ul {
 }
 @media (any-hover: hover){
   .main__a:hover {
-  background: #fff;
+  background: #ffffffb3;
   color: #fe461c;
 }
 }
@@ -298,7 +298,7 @@ ul {
 }
 @media (any-hover: hover){
   .about__a:hover {
-  background: #fff;
+  background: #ffffffb3;
   color: #fe461c;
 }
 }
@@ -382,7 +382,7 @@ ul {
 @media (any-hover: hover){
   .footer__social a:hover{
   color:#24263b;
-  background:white;
+  background:#ffffffb3;
 }
 }
 
@@ -413,7 +413,7 @@ ul {
 }
 @media (any-hover: hover){
   #footer-logo:hover{
-  color: white;
+  color: #ffffffb3;
 }
 }
 
