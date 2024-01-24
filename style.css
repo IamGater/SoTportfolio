@@ -93,7 +93,7 @@ ul {
   font-family: Outfit;
   cursor: pointer;
   z-index: 102;
-  transition: color 0.7s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 @media (any-hover: hover){
   #logo:hover{
@@ -221,12 +221,11 @@ ul {
   border: none;
   cursor: pointer;
   text-decoration: none;
-  transition: color 0.7s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 @media (any-hover: hover){
   .main__a:hover {
   background: #ffffffb3;
-  color: #fe461c;
 }
 }
 
@@ -294,12 +293,11 @@ ul {
   cursor: pointer;
   text-decoration: none;
   max-width: 120px;
-  transition: color 0.8s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 @media (any-hover: hover){
   .about__a:hover {
   background: #ffffffb3;
-  color: #fe461c;
 }
 }
 
@@ -377,11 +375,10 @@ ul {
   text-decoration: none;
   color: white;
   font-family: Outfit;
-  transition: color 0.8s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 @media (any-hover: hover){
   .footer__social a:hover{
-  color:#24263b;
   background:#ffffffb3;
 }
 }
@@ -409,7 +406,7 @@ ul {
   font-size: 30px;
   font-family: Outfit;
   cursor: pointer;
-  transition: color 0.7s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 @media (any-hover: hover){
   #footer-logo:hover{
