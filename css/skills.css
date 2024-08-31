@@ -1,0 +1,101 @@
+.skills {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.skills__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills__span {
+  padding: 12px 14px;
+  color: #fff;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 2.4px;
+  text-transform: capitalize;
+  border-radius: 4px;
+  background: #24263b;
+  box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
+}
+
+.skills__title {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+}
+.skill {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.skill__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.skills__title {
+  margin-top: 25px;
+  margin-bottom: 46px;
+}
+.skill__span {
+  display: block;
+  width: 606px;
+  height: 18px;
+  border-radius: 300px;
+  background-color: #fff;
+}
+.skill__span1 {
+  display: block;
+  width: 90%;
+  height: 18px;
+  border-radius: 300px;
+  background: #fe461c;
+}
+.skill__span2 {
+  display: block;
+  width: 70%;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 300px;
+  background: #fe461c;
+}
+.skill__wheel {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1100px) {
+  .skill__span {
+    max-width: 420px;
+  }
+  .skill__wheel {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .skill__span {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 860px) {
+  .skills__container {
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+  }
+}
